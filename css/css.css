@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    box-shadow: 10px 10px 5px 0px rgba(202, 191, 191, 0.75);
+    background-color: rgb(202, 243, 250);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo img{
+    padding: 3px;
+    width: 25%;
+}
+
+.contenido p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.titulo{
+    border-bottom: 2px double rgb(78, 78, 78);
+    color: rgb(93, 95, 93);
+    margin-bottom: 12px;
+}
+
+.active{
+    color: rgb(240, 2, 2) !important;
+}
+.tiktok{
+    width: 12% !important;
+    display: 100% !important;
+    flex-flow: row wrap !important;
+    gap: 25px;
+  
+}
+.navegacion {
+    justify-content:center;
+    margin: 10px ;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    display: inline-block;
+}
+.menu >li >a{
+     
+     padding: 15px ;
+     font-family: fantasy;
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+}
+
+.menu li a:hover{
+    color: rgb(99, 219, 43);
+    transition: all .3s;
+}
+/* sud menu  */
+.sudmenu{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opactiy 1.5s;
+
+}
+.sudmenu li a{
+    display: block;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+
+}
+.menu li:hover .sudmenu{
+   visibility: visible;
+   opacity: 1;
+}
+.redes {
+    justify-content:left;
+    margin: 10px ;
+}
+.redes ul{
+    list-style: none;
+}
+.redes > li{
+    display: inline-block;
+}
+.redes >li >a{
+     
+     padding: 15px ;
+     font-family: fantasy;
+     text-decoration: none;
+}
+
+.redes li a:hover{
+    color: rgb(99, 219, 43);
+    transition: all .3s;
+}
+section p{
+    display: flex;
+}
